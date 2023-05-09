@@ -1,0 +1,21 @@
+﻿<Window x:Class="TextBlockDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlockDemo"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Demo" Height="200" Width="400" Icon="/FPTLogo.jpg">
+    <Grid>
+        <TextBlock>
+            Hello <Bold>World</Bold> ! And Hello <Italic>You</Italic>
+            <LineBreak/> <!-- line break -->
+            Go to <Hyperlink 
+                RequestNavigate="Hyperlink_RequestNavigate"
+                NavigateUri="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-7.0">
+                Microsoft Learn WPF
+            </Hyperlink> 
+        </TextBlock>
+    </Grid>
+</Window>
