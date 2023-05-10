@@ -30,6 +30,7 @@ namespace TextBlockDemo
         {
             /*MessageBox.Show("This is where you want to go!", "Redirect");*/
 
+            //Open the link in the browser
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri) { UseShellExecute = true });
         }
     }
