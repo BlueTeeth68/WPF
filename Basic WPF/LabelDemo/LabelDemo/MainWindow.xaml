@@ -1,0 +1,56 @@
+﻿<Window
+    x:Class="LabelDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:LabelDemo"
+    mc:Ignorable="d"
+    Title="Label Demo"
+    Height="400"
+    Width="700"
+    Icon="/FPTLogo.jpg"
+    ResizeMode="CanMinimize"
+    WindowStartupLocation="CenterScreen">
+    <Grid
+        Background="OrangeRed">
+
+        <StackPanel>
+            <Label
+                FontSize="25"
+                Foreground="White">
+                Hello My Friends
+            </Label>
+            <Label
+                Margin="16,16,16,0"
+                Padding="10"
+                BorderThickness="1"
+                BorderBrush="White">
+                <StackPanel
+                    Orientation="Horizontal"
+                    Width="413">
+                    <Image
+                        Source="/FPTLogo.jpg"
+                        Width="120" />
+                    <AccessText
+                        FontSize="25"
+                        Foreground="White"
+                        VerticalAlignment="Center"
+                        Margin="16"
+                        Text="FPT University" />
+                </StackPanel>
+            </Label>
+            <TextBox
+                FontSize="25"
+                Margin="16,16,16,0"
+                Height="40"
+                Background="Wheat"
+                VerticalAlignment="Center"
+                BorderThickness="1"
+                BorderBrush="White"
+                Text="This is a text box">
+                
+            </TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
