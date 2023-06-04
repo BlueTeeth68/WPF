@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Images\accountIcon.png" />
+		<None Remove="Images\brand.jpg" />
+		<None Remove="Images\ClassBackground1.jpg" />
+		<None Remove="Images\ClassBackground2.jpg" />
+		<None Remove="Images\ClassBackground3.jpg" />
+		<None Remove="Images\ClassBackground4.jpg" />
+		<None Remove="Images\PasswordIcon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EntityFramework" Version="6.4.4" />
+		<PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\BusinessObject\BusinessObject.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Images\Icons\accountIcon.png" />
+		<Resource Include="Images\Logo\brand.jpg" />
+		<Resource Include="Images\ClassBackground1.jpg" />
+		<Resource Include="Images\ClassBackground2.jpg" />
+		<Resource Include="Images\ClassBackground3.jpg" />
+		<Resource Include="Images\ClassBackground4.jpg" />
+		<Resource Include="Images\Icons\PasswordIcon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="MVVM\Model\" />
+	</ItemGroup>
+
+</Project>

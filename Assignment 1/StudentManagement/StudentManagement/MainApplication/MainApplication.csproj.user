@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ClassEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClassMemberEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\ClassView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\ClassMemberView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ClassEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClassMemberEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\ClassView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\ClassMemberView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ControlButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\DataGridStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButtonIcon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TextBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

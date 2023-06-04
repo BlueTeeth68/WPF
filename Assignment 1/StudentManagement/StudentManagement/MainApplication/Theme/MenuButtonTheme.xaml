@@ -1,0 +1,293 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks">
+
+    <Style
+        BasedOn="{StaticResource {x:Type ToggleButton}}"
+        TargetType="{x:Type RadioButton}"
+        x:Key="MenuButtonAccount">
+        <Style.Setters>
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                        TargetType="RadioButton">
+                       
+                        <StackPanel
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Background="{TemplateBinding Background}"
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}"
+                            >
+                            <Icon:PackIconMaterial
+                                Kind="Account"
+                                Style="{StaticResource MenuButtonIcon}" 
+                                Margin="40 0 10 0"
+                  
+                                />
+                            <TextBlock
+                                Foreground="White"
+                                Text="Account" 
+                                VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                            <Trigger
+                                Property="IsMouseOver"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter
+                Property="Background"
+                Value="Transparent" />
+
+            <Setter
+                Property="BorderThickness"
+                Value="0" />
+            <Setter
+                Property="Margin"
+                Value="0 0 0 0" />
+            <Setter
+                Property="Padding"
+                Value="10 0 0 0" />
+            <Setter Property="Width"
+                    Value="200"/>
+            <Setter
+                Property="Height"
+                Value="50" />
+
+        </Style.Setters>
+
+
+    </Style>
+
+    <Style
+        BasedOn="{StaticResource {x:Type ToggleButton}}"
+        TargetType="{x:Type RadioButton}"
+        x:Key="MenuButtonClass">
+        <Style.Setters>
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                        TargetType="RadioButton">
+
+                        <StackPanel
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Background="{TemplateBinding Background}"
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}">
+                            <Icon:PackIconMaterial
+                                Kind="BookEdit"
+                                Style="{StaticResource MenuButtonIcon}"
+                                Margin="40 0 10 0" />
+                            <TextBlock
+                                Foreground="White"
+                                Text="Class"
+                                VerticalAlignment="Center" />
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger
+                                Property="IsChecked"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                            <Trigger
+                                Property="IsMouseOver"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter
+                Property="Background"
+                Value="Transparent" />
+
+            <Setter
+                Property="BorderThickness"
+                Value="0" />
+            <Setter
+                Property="Margin"
+                Value="0 0 0 0" />
+            <Setter
+                Property="Padding"
+                Value="10 0 0 0" />
+            <Setter
+                Property="Width"
+                Value="200" />
+            <Setter
+                Property="Height"
+                Value="50" />
+
+        </Style.Setters>
+
+
+    </Style>
+
+    <Style
+        BasedOn="{StaticResource {x:Type ToggleButton}}"
+        TargetType="{x:Type RadioButton}"
+        x:Key="MenuButtonStudent">
+        <Style.Setters>
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                        TargetType="RadioButton">
+
+                        <StackPanel
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Background="{TemplateBinding Background}"
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}">
+                            <Icon:PackIconMaterial
+                                Kind="AccountGroup"
+                                Style="{StaticResource MenuButtonIcon}"
+                                Margin="40 0 10 0" />
+                            <TextBlock
+                                Foreground="White"
+                                Text="Student"
+                                VerticalAlignment="Center" />
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger
+                                Property="IsChecked"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                            <Trigger
+                                Property="IsMouseOver"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter
+                Property="Background"
+                Value="Transparent" />
+
+            <Setter
+                Property="BorderThickness"
+                Value="0" />
+            <Setter
+                Property="Margin"
+                Value="0 0 0 0" />
+            <Setter
+                Property="Padding"
+                Value="10 0 0 0" />
+            <Setter
+                Property="Width"
+                Value="200" />
+            <Setter
+                Property="Height"
+                Value="50" />
+
+        </Style.Setters>
+
+
+    </Style>
+
+    <Style
+        BasedOn="{StaticResource {x:Type ToggleButton}}"
+        TargetType="{x:Type RadioButton}"
+        x:Key="MenuButtonTeacher">
+        <Style.Setters>
+            <Setter
+                Property="Template">
+                <Setter.Value>
+                    <ControlTemplate
+                        TargetType="RadioButton">
+
+                        <StackPanel
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Background="{TemplateBinding Background}"
+                            Width="{TemplateBinding Width}"
+                            Height="{TemplateBinding Height}">
+                            <Icon:PackIconMaterial
+                                Kind="AccountTie"
+                                Style="{StaticResource MenuButtonIcon}"
+                                Margin="40 0 10 0" />
+                            <TextBlock
+                                Foreground="White"
+                                Text="Teacher"
+                                VerticalAlignment="Center" />
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger
+                                Property="IsChecked"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                            <Trigger
+                                Property="IsMouseOver"
+                                Value="True">
+                                <Setter
+                                    Property="Background"
+                                    Value="#324fa5" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Setter
+                Property="Background"
+                Value="Transparent" />
+
+            <Setter
+                Property="BorderThickness"
+                Value="0" />
+            <Setter
+                Property="Margin"
+                Value="0 0 0 0" />
+            <Setter
+                Property="Padding"
+                Value="10 0 0 0" />
+            <Setter
+                Property="Width"
+                Value="200" />
+            <Setter
+                Property="Height"
+                Value="50" />
+
+        </Style.Setters>
+
+
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,15 @@
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\bin\Debug\net6.0\appsettings.json
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\bin\Debug\net6.0\DataAccess.dll
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.dll
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+F:\Work Space\C#\WPF\Assignment\Assignment 1\StudentManagement\StudentManagement\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

@@ -1,0 +1,40 @@
+﻿<Application
+    x:Class="MainApplication.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MainApplication"
+    xmlns:view="clr-namespace:MainApplication.MVVM.View"
+    xmlns:viewModel="clr-namespace:MainApplication.MVVM.ViewModel"
+    StartupUri="Login.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="Theme/ControlButton.xaml" />
+                <ResourceDictionary
+                    Source="Theme/MenuButton.xaml" />
+                <ResourceDictionary
+                    Source="Theme/MenuButtonIcon.xaml" />
+                <ResourceDictionary
+                    Source="Theme/MenuButtonTheme.xaml" />
+                <ResourceDictionary
+                    Source="Theme/TextBoxStyle.xaml" />
+                <ResourceDictionary
+                    Source="Theme/DataGridStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate
+                DataType="{x:Type viewModel:ClassViewModel}">
+                <view:ClassView />
+            </DataTemplate>
+
+            <DataTemplate
+                DataType="{x:Type viewModel:ClassMemberViewModel}">
+                <view:ClassMemberView
+                    Role="{Binding DataContext.Role, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" />
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
